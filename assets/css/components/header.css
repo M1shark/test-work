@@ -1,0 +1,135 @@
+.header {
+  padding: 46px 0 26px 0;
+}
+.header__container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+.header__content {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11px;
+}
+.header__logo-item {
+  display: block;
+}
+.header__logo-text {
+  font-family: "undefined";
+  font-size: 31px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #F26522;
+}
+.header__info-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 2px;
+  margin-bottom: 7px;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+.nav__link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #6C6C6C;
+}
+
+.info-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 7px;
+}
+.info-adress__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #5D5D5D;
+}
+.info-adress__info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #6C6C6C;
+}
+
+.company__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+}
+.company__img {
+  display: block;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.info-callus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+.info-callus__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: undefined;
+  font-style: normal;
+  text-align: left;
+  color: #5D5D5D;
+}
+.info-callus__num {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: undefined;
+  font-style: normal;
+  text-align: left;
+  color: #F26522;
+}
